@@ -22,7 +22,8 @@ const SearchOutput = (props) => {
                     <SearchResult
                         key={index}
                         title={result.title}
-                        authors={result.authors}
+                        calories={result.calories}
+                        image={result.image}
                         link={result.link}
                     />
                 );

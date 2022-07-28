@@ -1,10 +1,11 @@
 export const properties = {
-    courseName: 'Level 7 Animal Search',
-    endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Here is a brief description of the project.  Try to keep it to two or three sentences',
-    backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Student One, Student Two, Student Three',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/Cheetah-Search'
+    courseName: 'Level 7 Recipe Search',
+    endpoint: 'https://recipe.api.jointheleague.org?q=',
+    description: 'Search for a recipe or discover a new recipe! Input a search term and a result of the recipe, image, #calories, and ID will pop up.',
+    backendSwaggerUrl: 'https://recipe.api.jointheleague.org/',
+    createdBy: 'Jessie Shen',
+    repositoryUrl: 'https://github.com/jbear18/Recipe-Search'
+
 };
 
 /*
@@ -29,9 +30,11 @@ If your object doesn't return any lists, you could simplify the above code great
 a made up animal object may look like this:
 
 <article className={classes.Result}>
-    <h1>Species: {props.species}</h1>
-    <h3>Number of legs: {props.numberOfLegs}<h3>
-    <a href={props.link} rel="noopener noreferrer" target="_blank">{props.link}</a>
+    <h1>Recipe Title: {props.title}</h1>
+    <h3>Calories: {props.calories}<h3>
+    <h3>Image: {props.image}<h3>
+    <h3>Link: {props.link}<h3>
+//    <a href={props.link} rel="noopener noreferrer" target="_blank">{props.link}</a>
 </article>
 
 
