@@ -1,8 +1,8 @@
 export const properties = {
     courseName: 'Level 7 Recipe Search',
-    endpoint: 'https://recipe.api.jointheleague.org?q=',
+    endpoint: 'http://localhost:5000/searchSpoonacularResults?q=',
     description: 'Search for a recipe or discover a new recipe! Input a search term and a result of the recipe, image, #calories, and ID will pop up.',
-    backendSwaggerUrl: 'https://recipe.api.jointheleague.org/',
+    backendSwaggerUrl: 'http://localhost:5000/',
     createdBy: 'Jessie Shen',
     repositoryUrl: 'https://github.com/jbear18/Recipe-Search'
 
