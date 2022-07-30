@@ -16,9 +16,10 @@ const SearchResult = (props) => {
     <h3 className={classes.Result}>
         {props.results && props.results.map((title, index) => (
             <p key={index}>{title}</p>
-//            <p link="https://spoonacular.com/" + props.title.split(" ")[props.title.split(" ").length-1] + "-" + "props.id">"hello"</p>
+
         ))}
         </h3>
+        <script> props.link="https://spoonacular.com/" + props.title.split(" ")[props.title.split(" ").length-1] + "-" + "props.id">"hello"</script>
         <a href={props.link} rel="noopener noreferrer" target="_blank">{props.link}</a>
 </article>
 
