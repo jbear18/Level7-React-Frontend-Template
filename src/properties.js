@@ -6,7 +6,7 @@ export const properties = {
 //    backendSwaggerUrl: 'http://localhost:5000/',
     backendSwaggerUrl: 'https://recipe-search-one.vercel.app/',
     createdBy: 'Jessie Shen',
-    repositoryUrl: 'https://github.com/jbear18/Recipe-Search'
+//    repositoryUrl: 'https://github.com/jbear18/Recipe-Search'
 
 };
 

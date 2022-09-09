@@ -16,12 +16,12 @@ const CreatedBy = () => (
             </a>
             <br/>
             <br/>
-            <a className={classes.Link}
-               href={properties.repositoryUrl}
-               rel="noopener noreferrer"
-               target="_blank">
-                View Repository on GitHub
-            </a>
+//            <a className={classes.Link}
+//               href={properties.repositoryUrl}
+//               rel="noopener noreferrer"
+//               target="_blank">
+//                View Repository on GitHub
+//            </a>
         </p>
     </div>
 );
