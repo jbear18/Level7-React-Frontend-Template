@@ -22,7 +22,7 @@ const CreatedBy = () => (
 //               target="_blank">
 //                View Repository on GitHub
 //            </a>
-        </p>
+//        </p>
     </div>
 );
 
