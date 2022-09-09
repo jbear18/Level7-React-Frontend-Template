@@ -1,10 +1,10 @@
 export const properties = {
     courseName: 'Recipe Search',
-    endpoint: 'http://localhost:5000/searchSpoonacularResults?q=',
-//    endpoint: 'https://recipe-search-one.vercel.app/searchSpoonacularResults?q=',
+//    endpoint: 'http://localhost:5000/searchSpoonacularResults?q=',
+    endpoint: 'https://recipe-search-one.vercel.app/searchSpoonacularResults?q=',
     description: 'Search for a recipe or discover a new recipe! Input a search term and a result of the recipe, image, #calories, and ID will pop up.',
-    backendSwaggerUrl: 'http://localhost:5000/',
-//    backendSwaggerUrl: 'https://recipe-search-one.vercel.app/',
+//    backendSwaggerUrl: 'http://localhost:5000/',
+    backendSwaggerUrl: 'https://recipe-search-one.vercel.app/',
     createdBy: 'Jessie Shen',
     repositoryUrl: 'https://ppjcqy0ktq0.typeform.com/to/Jmj9xECp'
 
